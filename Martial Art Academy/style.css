@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 20px;
+    color: #000;
+    line-height: 30px;
+}
+
+.next{
+    text-align: center;
+    margin: 50 0 0 0;
+}
+
+
+button{
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    line-height: 30px;
+    cursor: pointer;
+    padding: 5 50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover{
+    background: #fff;
+    color: #000;
+    border: 3px solid #fff;
+    line-height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5 50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.menu{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    width: 20%;
+    margin-left: 80px;
+    cursor: pointer;
+    float: left;
+}
+
+.logo img{
+    height: 80px;
+    width: auto;
+}
+
+.nav{
+    width: 55%;
+    cursor: pointer;
+    float: right;
+    margin-left: 100px;
+}
+
+.bgimage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center; 
+}
+
+.nav ul li{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 80px;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.nav ul li:hover{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    color: #f80000;
+    line-height: 80px;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.info{
+    margin-top: 200px;
+
+}
+
+.info h3{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
